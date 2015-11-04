@@ -1,6 +1,6 @@
 {
 	"name": "okvee/number",
-	"version": "1.0",
+	"version": "1.1",
 	"type": "library",
 	"description": "number conversion (number to text) (Thai and English)",
 	"keywords": ["number", "num to text", "number to text", "number conversion", "convert number", "number convert"],
