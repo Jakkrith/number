@@ -1,33 +1,61 @@
-Number
-======
+# Number
 
-Number conversion or number to text. Convert number to text in Thai and English languages.<br>
+The Number classes provide formatting, convertions classes and methods for working with numeric values.<br>
+The Number[Language] class is for convert number to text in Thai and English languages.<br>
 In Thai language it is including number to Thai Baht conversion.
 
-Example of uses:
+## Example:
+
+### Convert number:
+
 ```php
-// Require the file. For English require NumberEng.php, for Thai require NumberThai.php
+// For English require NumberEng.php, for Thai require NumberThai.php
 require 'Okvee/Number/NumberEng.php';
 
-// initiate new class variable. For English use NumberEng(), for Thai use NumberThai()
+// For English use NumberEng(), for Thai use NumberThai()
 $number_text = new Okvee\Number\NumberEng();
 
-// convert it.
 echo $number_text->convertNumber('101');
 // the result should be:
 // one hundred and one (for English)
 // หนึ่งร้อยเอ็ด (for Thai)
 ```
 
-To covnert number to Thai Baht text. Use NumberThai.php and NumberThai() class.<br>
-Example:
+### Convert Thai Baht:
+
 ```php
 require 'Okvee/Number/NumberThai.php';
 
 $number_text = new Okvee\Number\NumberThai();
 
-// convert number to Thai Baht.
 echo $number_text->convertBaht('3.23');
 // the result should be:
 // สามบาทยี่สิบสามสตางค์
 ```
+
+### Convert file size to Bytes:
+
+```php
+require 'Okvee/Number/Number.php';
+
+$number = new Okvee\Number\Number();
+
+echo $number->toBytes('1.3KB'); // 1300
+echo $number->toBytes('1.3KiB'); // 1331.2
+```
+
+### Convert to other file size unit from Bytes:
+
+```php
+require 'Okvee/Number/Number.php';
+
+$number = new Okvee\Number\Number();
+
+echo $number->fromBytes('100000'); // 100.00 KB
+echo $number->fromBytes('133300'); // 133.30 KB
+echo $number->fromBytes('10000', 'KiB); // 9.76 KiB
+```
+
+---
+
+For more example, please look inside **test** folder.

@@ -3,7 +3,7 @@
  * Number Thai class
  *
  * @package Okvee Number
- * @version 1.0
+ * @since 1.0
  * @author Vee W.
  * @license http://opensource.org/licenses/MIT
  *

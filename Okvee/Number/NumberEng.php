@@ -5,7 +5,7 @@
  * I make it as a class and change the license to MIT that is still free to use and modify.
  *
  * @package Okvee Number
- * @version 1.0
+ * @since 1.0
  * @author Vee W.
  * @license http://opensource.org/licenses/MIT
  *
