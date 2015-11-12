@@ -61,4 +61,4 @@ echo $number->fromBytes('10000', 'KiB); // 9.76 KiB
 
 ---
 
-For more example, please look inside **test** folder.
+For more example, please look inside **tests** folder.
