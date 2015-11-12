@@ -1,4 +1,4 @@
-# Number
+# Number Component
 
 The Number classes provide formatting, convertions classes and methods for working with numeric values.<br>
 The Number[Language] class is for convert number to text in Thai and English languages.<br>
