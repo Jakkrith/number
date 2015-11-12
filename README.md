@@ -4,6 +4,9 @@ The Number classes provide formatting, convertions classes and methods for worki
 The Number[Language] class is for convert number to text in Thai and English languages.<br>
 In Thai language it is including number to Thai Baht conversion.
 
+[![Latest Stable Version](https://poser.pugx.org/okvee/number/v/stable)](https://packagist.org/packages/okvee/number)
+[![License](https://poser.pugx.org/okvee/number/license)](https://packagist.org/packages/okvee/number)
+
 ## Example:
 
 ### Convert number:
