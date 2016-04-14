@@ -15,6 +15,9 @@
 	"require": {
 		"php": ">=5.3.0"
 	},
+	"suggest": {
+		"rundiz/number": "Please change from Okvee\\Number to Rundiz\\Number."
+	},
 	"autoload": {
 		"psr-4": {
 			"Okvee\\Number\\" : "Okvee/Number"
